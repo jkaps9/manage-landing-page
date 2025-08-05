@@ -16,14 +16,19 @@
 }
 
 :root {
-  --color-primary: #e63946;
-  --color-primary-light: #e46671;
+                        
+	/*- Gray 950: hsl(233, 12%, 13%)
+- Orange 50: hsl(13, 100%, 96%)
+- Gray 50: hsl(0, 0%, 98%)*/
 
-  --color-complementary: #1d3557;
-  --color-body-text: #0f0f0f;
-  --color-body-text-light: #f1faee;
-  --color-header-text: #0f0f0f;
-  --color-header-text-light: #f1faee;
+  --color-primary: hsl(12, 88%, 59%);
+  --color-primary-light: hsl(13, 100%, 96%);
+
+  --color-complementary: hsl(228, 39%, 23%);
+  --color-body-text: hsl(233, 12%, 13%);
+  --color-body-text-light: #ffffff;
+  --color-header-text: #000000;
+  --color-header-text-light: #ffffff;
   --color-highlight: #457b9d;
   --color-highlight-light: #a8dadc;
 

@@ -1,0 +1,1378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <a href="/" class="logo" aria-label="back to home">
+          <img
+            src="./assets/svgs/logoipsum-380.svg"
+            alt="logo"
+            width="260"
+            height="40"
+            aria-hidden="true"
+            decoding="async"
+          />
+        </a>
+        <nav class="menu" role="navigation">
+          <button class="hamburger" aria-label="mobile menu toggle">
+            <div class="box" aria-hidden="true">
+              <span class="line line1" aria-hidden="true"></span>
+              <span class="line line2" aria-hidden="true"></span>
+              <span class="line line3" aria-hidden="true"></span>
+            </div>
+          </button>
+
+          <div class="ul-wrapper">
+            <ul>
+              <li>
+                <a href="#" class="li-link active">Home</a>
+              </li>
+              <li>
+                <a href="#" class="li-link">About</a>
+              </li>
+              <li class="dropdown">
+                <span class="li-link">
+                  Services
+                  <img
+                    class="drop-icon"
+                    src="./assets/svgs/dropdown.svg"
+                    alt="dropdown icon"
+                    width="15"
+                    height="15"
+                    decoding="async"
+                    aria-hidden="true"
+                  />
+                </span>
+              </li>
+              <li>
+                <a href="#" class="li-link">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="/contact/" class="button-solid nav-button">Contact Us</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container">
+          <span class="topper">Pearl River Web Design Presents</span>
+          <h1 class="title">The Website Starter Kit</h1>
+          <p class="text">
+            Use this kit to make your new website as easy as one, two, three!
+          </p>
+
+          <a class="button-solid">Get in touch</a>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="background">
+          <!--Mobile Image-->
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/landing-7f79d2e5.avif"
+            type="image/avif"
+          />
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/landing-23b077c1.webp"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/landing-cb38c3a8.jpeg"
+            type="image/jpeg"
+          />
+          <!--Tablet Image-->
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/landing-2ede7df8.avif"
+            type="image/avif"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/landing-10f7897c.webp"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/landing-51b32600.jpeg"
+            type="image/jpeg"
+          />
+          <!--Large Tablet Image-->
+          <source
+            media="(min-width: 1024px) and (max-width: 1300px)"
+            srcset="./assets/images/landing-2ede7df8.avif"
+            type="image/avif"
+          />
+          <source
+            media="(min-width: 1024px) and (max-width: 1300px)"
+            srcset="./assets/images/landing-10f7897c.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1024px) and (max-width: 1300px)"
+            srcset="./assets/images/landing-51b32600.jpeg"
+            type="image/jpeg"
+          />
+          <!--Desktop Image-->
+          <source
+            media="(min-width: 1300px)"
+            srcset="./assets/images/landing-3ef5cb9a.avif"
+            type="image/avif"
+          />
+          <source
+            media="(min-width: 1300px)"
+            srcset="./assets/images/landing-522114cf.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1300px)"
+            srcset="./assets/images/landing-fb885ad0.jpeg"
+            type="image/jpeg"
+          />
+          <img
+            src="./assets/images/landing-fb885ad0.jpeg"
+            alt="kitchen"
+            width="1"
+            height="1"
+            loading="eager"
+            decoding="async"
+          />
+        </picture>
+      </section>
+      <section id="services">
+        <ul class="card-container">
+          <li class="card">
+            <picture class="icon">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/s1.svg"
+                alt="icon"
+                width="52"
+                height="52"
+                aria-hidden="true"
+              />
+            </picture>
+            <h2 class="title">Service One</h2>
+            <p class="text">
+              Service description. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Libero nulla ex fuga autem fugiat a.
+            </p>
+          </li>
+          <li class="card">
+            <picture class="icon">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/s2.svg"
+                alt="icon"
+                width="52"
+                height="52"
+                aria-hidden="true"
+              />
+            </picture>
+            <h2 class="title">Service Two</h2>
+            <p class="text">
+              Service description. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Libero nulla ex fuga autem fugiat a.
+            </p>
+          </li>
+          <li class="card">
+            <picture class="icon">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/s3.svg"
+                alt="icon"
+                width="52"
+                height="52"
+                aria-hidden="true"
+              />
+            </picture>
+            <h2 class="title">Service Three</h2>
+            <p class="text">
+              Service description. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Libero nulla ex fuga autem fugiat a.
+            </p>
+          </li>
+          <li class="card">
+            <picture class="icon">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/s4.svg"
+                alt="icon"
+                width="52"
+                height="52"
+                aria-hidden="true"
+              />
+            </picture>
+            <h2 class="title">Service Four</h2>
+            <p class="text">
+              Service description. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Libero nulla ex fuga autem fugiat a.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="about-us-sbs">
+        <div class="container">
+          <div class="image-container">
+            <picture class="picture picture1">
+              <!--Mobile Image-->
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-1085ed4f.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-5fa08180.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-498b6288.jpeg"
+                type="image/jpeg"
+              />
+              <!--Tablet Image-->
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-81db63f9.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-12b53234.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-48f82c67.jpeg"
+                type="image/jpeg"
+              />
+              <!--Desktop Image-->
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-889305cf.avif"
+                type="image/avif"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-459b90e7.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-a5f4b2e6.jpeg"
+                type="image/jpeg"
+              />
+              <img
+                src="./assets/images/cabinets-a5f4b2e6.jpeg"
+                alt="lawyers"
+                width="522"
+                height="581"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+            <picture class="picture picture2">
+              <!--Mobile Image-->
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-cb1b80a5.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-352f6e9f.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-a347c354.jpeg"
+                type="image/jpeg"
+              />
+              <!--Tablet Image-->
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-fd1f94fd.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-9b28755d.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-70b8b09f.jpeg"
+                type="image/jpeg"
+              />
+              <!--Desktop Image-->
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-b9d42ada.avif"
+                type="image/avif"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-80c95266.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-b0a4d98a.jpeg"
+                type="image/jpeg"
+              />
+              <img
+                src="./assets/images/construction-b0a4d98a.jpeg"
+                alt="gavel"
+                width="390"
+                height="376"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+          </div>
+          <div class="content">
+            <span class="topper">About Us</span>
+            <h2 class="title">About Company</h2>
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur dolor hic quasi ea, animi quia tempora dolores nostrum
+              provident laboriosam voluptatum corrupti atque ex, qui voluptates
+              eos. Veritatis, maiores beatae.
+            </p>
+            <div class="quote-box">
+              <span class="quote-text"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis consectetur expedita eligendi numquam natus dignissimos
+                perferendis quis.</span
+              >
+              <span class="name">Justin Time</span>
+              <span class="job">CEO-Founder</span>
+              <img
+                class="quote-icon"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/quote.svg"
+                alt="gavel"
+                width="136"
+                height="77"
+              />
+            </div>
+            <a href="/about/" class="button-solid">About Us</a>
+          </div>
+        </div>
+      </section>
+      <section id="about-us-sbsr">
+        <div class="container">
+          <div class="image-container">
+            <picture class="picture picture1">
+              <!--Mobile Image-->
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-1085ed4f.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-5fa08180.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/cabinets-498b6288.jpeg"
+                type="image/jpeg"
+              />
+              <!--Tablet Image-->
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-81db63f9.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-12b53234.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/cabinets-48f82c67.jpeg"
+                type="image/jpeg"
+              />
+              <!--Desktop Image-->
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-889305cf.avif"
+                type="image/avif"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-459b90e7.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/cabinets-a5f4b2e6.jpeg"
+                type="image/jpeg"
+              />
+              <img
+                src="./assets/images/cabinets-a5f4b2e6.jpeg"
+                alt="lawyers"
+                width="522"
+                height="581"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+            <picture class="picture picture2">
+              <!--Mobile Image-->
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-cb1b80a5.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-352f6e9f.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 600px)"
+                srcset="./assets/images/construction-a347c354.jpeg"
+                type="image/jpeg"
+              />
+              <!--Tablet Image-->
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-fd1f94fd.avif"
+                type="image/avif"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-9b28755d.webp"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 1024px)"
+                srcset="./assets/images/construction-70b8b09f.jpeg"
+                type="image/jpeg"
+              />
+              <!--Desktop Image-->
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-b9d42ada.avif"
+                type="image/avif"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-80c95266.webp"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="./assets/images/construction-b0a4d98a.jpeg"
+                type="image/jpeg"
+              />
+              <img
+                src="./assets/images/construction-b0a4d98a.jpeg"
+                alt="gavel"
+                width="390"
+                height="376"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+          </div>
+          <div class="content">
+            <span class="topper">About Us</span>
+            <h2 class="title">About Company</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              aspernatur alias laborum ut consequuntur nostrum eos debitis nobis
+              similique fugiat ipsam, saepe numquam velit modi doloribus,
+              veritatis reiciendis soluta laboriosam qui quos cupiditate. Dolor
+              distinctio nulla illum sint veritatis rem.
+            </p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              aspernatur alias laborum ut consequuntur nostrum eos debitis nobis
+              similique fugiat ipsam, saepe numquam velit modi doloribus,
+              veritatis reiciendis soluta laboriosam qui quos cupiditate. Dolor
+              distinctio nulla illum sint veritatis rem.
+            </p>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              aspernatur alias laborum ut consequuntur nostrum eos debitis nobis
+              similique fugiat ipsam, saepe numquam velit modi doloribus,
+              veritatis reiciendis soluta laboriosam qui quos cupiditate. Dolor
+              distinctio nulla illum sint veritatis rem.
+            </p>
+            <a href="/about/" class="button-solid">About Us</a>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <div class="container">
+          <div class="content">
+            <span class="topper">Our Portfolio</span>
+            <h2 class="title">Previous Projects</h2>
+          </div>
+          <div class="image-container">
+            <div class="row row-1">
+              <!-- Row 1-->
+              <picture class="picture picture-1">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port1-d9c61442.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port1-49b436f5.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port1-fe43aa91.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port1-2cfed35e.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port1-3c89b220.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port1-3f7642f5.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port1-5de1f81e.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port1-24251017.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port1-7cd05949.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port1-7cd05949.jpeg"
+                  alt="new hallway"
+                  width="413"
+                  height="567"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <picture class="picture picture-2">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port4-cd24f58e.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port4-ae94b8b8.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port4-a97d0a8c.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port4-2f314b0f.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port4-1e417e1e.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port4-ccd84187.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port4-4ce8e6aa.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port4-99cf844c.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port4-d2dfe75d.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port4-d2dfe75d.jpeg"
+                  alt="new home construction"
+                  width="413"
+                  height="629"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <picture class="picture picture-3">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port7-93eec15e.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port7-39c92a89.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port7-2f8cff92.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port7-e50bc0fa.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port7-0124db06.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port7-84a549eb.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port7-cbcbdbc6.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port7-bbc2e156.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port7-c6e7bf71.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port7-c6e7bf71.jpeg"
+                  alt="building a new wall"
+                  width="413"
+                  height="512"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <!-- To add more images, copy and paste this row's picture tags here in order from picture-1 to picture-3 and they will maintain the same layout-->
+            </div>
+            <!-- Row 2 -->
+            <div class="row row-2">
+              <picture class="picture picture-1">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port2-0f7eeac9.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port2-71012773.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port2-a7a81029.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port2-93a75ab0.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port2-49b55498.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port2-394020b7.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port2-5d81c95c.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port2-3110605d.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port2-e4423385.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port2-e4423385.jpeg"
+                  alt="new kitchen"
+                  width="413"
+                  height="492"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <picture class="picture picture-2">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port5-7bf8fb50.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port5-77628edc.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port5-18603d0c.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port5-4decae6b.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port5-beed390b.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port5-5d578f4e.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port5-7cb9876b.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port5-26e6d5a9.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port5-685ab113.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port5-685ab113.jpeg"
+                  alt="apartment addition"
+                  width="413"
+                  height="517"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+
+              <picture class="picture picture-3">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port8-7614393b.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port8-599156ca.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port8-003d7780.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port8-06329dc6.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port8-3959f5b3.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port8-affd09a7.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port8-49016f64.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port8-fc213f0a.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port8-0d0cdf5d.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port8-0d0cdf5d.jpeg"
+                  alt="kew kitchen cabinets"
+                  width="413"
+                  height="629"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+
+              <!-- To add more images, copy and paste this row's picture tags here in order from picture-1 to picture-3 and they will maintain the same layout-->
+            </div>
+            <!-- Row 3 -->
+            <div class="row row-3">
+              <picture class="picture picture-1">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port3-47fde85a.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port3-1cccc3ba.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port3-f3f3e2df.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port3-cdd7f3fe.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port3-e3178618.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port3-3c61226d.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port3-20aba6d9.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port3-724315cd.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port3-11ace577.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port3-11ace577.jpeg"
+                  alt="new black window structure"
+                  width="413"
+                  height="625"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+              <picture class="picture picture-2">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port6-edb0f676.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port6-399066de.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port6-b8b4248d.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port6-3ce36604.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port6-01ca84f2.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port6-ed0e26dc.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port6-2327146b.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port6-6fc8acf1.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port6-2dd6ff25.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port6-2dd6ff25.jpeg"
+                  alt="kitchen rebovation"
+                  width="413"
+                  height="452"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+
+              <picture class="picture picture-3">
+                <!--Mobile Image-->
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port9-2ff2f2bb.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port9-89d69a25.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 600px)"
+                  srcset="./assets/images/port9-e70c27e2.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Tablet Image-->
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port9-4a43ee6d.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port9-3114ea18.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 1024px)"
+                  srcset="./assets/images/port9-d9150142.jpeg"
+                  type="image/jpeg"
+                />
+                <!--Desktop Image-->
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port9-3539cbad.avif"
+                  type="image/avif"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port9-c0ba847e.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1024px)"
+                  srcset="./assets/images/port9-50eba426.jpeg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./assets/images/port9-50eba426.jpeg"
+                  alt="bathroom renovation"
+                  width="413"
+                  height="629"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+
+              <!-- To add more images, copy and paste this row's picture tags here in order from picture-1 to picture-3 and they will maintain the same layout-->
+            </div>
+          </div>
+          <a href="/project-one/" class="button-solid">View a Project</a>
+        </div>
+      </section>
+      <section id="reviews">
+        <div class="container">
+          <div class="content">
+            <span class="topper">Our Reviews</span>
+            <h2 class="title">Words From Our Customers</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Excepturi consequuntur est voluptatem nihil laudantium itaque?
+              Iusto laboriosam optio rem mollitia odit, animi enim harum ipsa
+              necessitatibus libero deserunt voluptatum ullam?
+            </p>
+          </div>
+          <ul class="card-container">
+            <!-- Review 1 -->
+            <li class="item">
+              <img
+                class="item-img"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/profile.svg"
+                alt="profile picture"
+                width="80"
+                height="80"
+              />
+              <p class="item-text">
+                Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor
+                habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec
+                sed ullamcorper lectus et. Auctor velit diam fermentum
+                consequat. Feugiat viverra massa urna, volutpat orci imperdiet
+                eget eget. Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Inventore, debitis!
+              </p>
+              <div class="info">
+                <div class="flex-group">
+                  <span class="name">Jon Doe</span>
+                  <span class="desc">Homeowner</span>
+                </div>
+                <img
+                  class="item-stars"
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="./assets/svgs/stars.svg"
+                  alt="stars"
+                  width="96"
+                  height="16"
+                />
+              </div>
+            </li>
+            <!-- Review 2 -->
+            <li class="item">
+              <img
+                class="item-img"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/profile.svg"
+                alt="profile picture"
+                width="80"
+                height="80"
+              />
+              <p class="item-text">
+                Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor
+                habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec
+                sed ullamcorper lectus et. Auctor velit diam fermentum
+                consequat. Feugiat viverra massa urna, volutpat orci imperdiet
+                eget eget.
+              </p>
+              <div class="info">
+                <div class="flex-group">
+                  <span class="name">Jon Doe</span>
+                  <span class="desc">Homeowner</span>
+                </div>
+                <img
+                  class="item-stars"
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="./assets/svgs/stars.svg"
+                  alt="stars"
+                  width="96"
+                  height="16"
+                />
+              </div>
+            </li>
+          </ul>
+          <a href="/reviews/" class="button-solid">Read All Reviews</a>
+        </div>
+      </section>
+      <section id="cta">
+        <div class="container">
+          <div class="content">
+            <span class="topper">Contact Us</span>
+            <h2 class="title">Get It Done With Us Today</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at
+              sit pellentesque molestie. Diam, adipiscing ultrices eu turpis
+              gravida.
+            </p>
+            <a href="/contact/" class="button-solid">Get A Free Quote</a>
+          </div>
+        </div>
+        <!-- Background Image-->
+        <picture class="picture">
+          <!--Mobile Image-->
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/cabinets-4a5389ad.avif"
+            type="image/avif"
+          />
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/cabinets-808cf1ec.webp"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 600px)"
+            srcset="./assets/images/cabinets-dec10a97.jpeg"
+            type="image/jpeg"
+          />
+          <!--Tablet Image-->
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/cabinets-05543d77.avif"
+            type="image/avif"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/cabinets-a1708354.webp"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="./assets/images/cabinets-cddfe106.jpeg"
+            type="image/jpeg"
+          />
+          <!--Desktop Image-->
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/images/cabinets-9cef58c0.avif"
+            type="image/avif"
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/images/cabinets-f968d98a.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/images/cabinets-9c698df8.jpeg"
+            type="image/jpeg"
+          />
+          <img
+            src="./assets/images/cabinets-9c698df8.jpeg"
+            alt="cabinets"
+            width="1920"
+            height="426"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <!-- Logo container -->
+        <div class="logo-container">
+          <a aria-label="go back to home" class="logo" href="/">
+            <img
+              class="logo-img"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="./assets/svgs/logoipsum-380-light.svg"
+              alt="logo"
+              width="240"
+              height="32"
+            />
+          </a>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            elementum tincidunt vitae velit dolor cras tellus nisl habitant.
+            Consectetur pellentesque dignissim sed amet.
+          </p>
+          <div class="social">
+            <a
+              class="social-link"
+              aria-label="visit google profile"
+              href="https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="social-img"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/google.svg"
+                alt="google"
+                width="11"
+                height="11"
+              />
+            </a>
+            <a
+              class="social-link"
+              aria-label="visit facebook profile"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="social-img"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/facebook.svg"
+                alt="facebook"
+                width="6"
+                height="11"
+              />
+            </a>
+            <a
+              class="social-link"
+              aria-label="visit instagram profile"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="social-img"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="./assets/svgs/instagram.svg"
+                alt="instagram"
+                width="11"
+                height="11"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Links -->
+        <ul class="nav">
+          <li class="nav-li">
+            <span class="header">Sitemap</span>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/reviews/">Reviews</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-li">
+            <span class="header">Projects</span>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/project-one/">Project One</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="/project-two/">Project Two</a>
+          </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="contact">
+          <li class="nav-li">
+            <span class="header">Contact</span>
+          </li>
+          <li class="contact-li">
+            <a
+              class="contact-link address"
+              href="https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
+              target="_blank"
+              rel="noopener"
+            >
+              First Address Line, <br />
+              Second Address Line, <br />
+              New York, NY 10001
+            </a>
+          </li>
+          <li class="contact-li">
+            <a class="contact-link" href="tel:555-123-4567">(555) 123-4567</a>
+          </li>
+          <li class="contact-li">
+            <a class="contact-link" href="mailto:email@email.com"
+              >email@email.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

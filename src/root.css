@@ -16,8 +16,7 @@
 }
 
 :root {
-                        
-	/*- Gray 950: hsl(233, 12%, 13%)
+  /*- Gray 950: hsl(233, 12%, 13%)
 - Orange 50: hsl(13, 100%, 96%)
 - Gray 50: hsl(0, 0%, 98%)*/
 
@@ -36,8 +35,8 @@
   --secondary: #1d3557ff;
   --accent: #457b9dff;
 
-  --header-font: "Roboto", Arial, Helvetica, sans-serif;
-  --body-font: "Roboto", Arial, Helvetica, sans-serif;
+  --header-font: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+  --body-font: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
 
   /* 13px - 16px */
   --topper-font-size: clamp(0.8125rem, 1.6vw, 1rem);
@@ -58,21 +57,9 @@ body {
 }
 
 /* Utility Classes */
-.topper {
-  font-size: var(--topper-font-size);
-  line-height: 1.2em;
-  text-transform: uppercase;
-  text-align: inherit;
-  letter-spacing: 0.1em;
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 0.25rem;
-  display: block;
-}
-
 .title {
   font-size: var(--header-font-size);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2em;
   text-align: inherit;
   max-width: 43.75rem;
@@ -156,43 +143,44 @@ body.dark-mode {
 /*        FONTS        */
 /* ******************* */
 
-/* roboto-regular - latin */
+/* be-vietnam-pro-regular - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
   font-style: normal;
-  font-family: "Roboto";
   font-weight: 400;
-  font-display: swap;
   src:
-    local(""),
-    url("./assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./assets/fonts/roboto-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../src/assets/fonts/be-vietnam-pro-v11-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../src/assets/fonts/be-vietnam-pro-v11-latin-regular.woff")
+      format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
 }
-
-/* roboto-700 - latin */
+/* be-vietnam-pro-500 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
   font-style: normal;
-  font-family: "Roboto";
+  font-weight: 500;
+  src:
+    url("../src/assets/fonts/be-vietnam-pro-v11-latin-500.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../src/assets/fonts/be-vietnam-pro-v11-latin-500.woff")
+      format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+/* be-vietnam-pro-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Be Vietnam Pro";
+  font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src:
-    local(""),
-    url("./assets/fonts/roboto-v29-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./assets/fonts/roboto-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* roboto-900 - latin */
-@font-face {
-  font-style: normal;
-  font-family: "Roboto";
-  font-weight: 900;
-  font-display: swap;
-  src:
-    local(""),
-    url("./assets/fonts/roboto-v29-latin-900.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./assets/fonts/roboto-v29-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../src/assets/fonts/be-vietnam-pro-v11-latin-700.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../src/assets/fonts/be-vietnam-pro-v11-latin-700.woff")
+      format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
 }
 
 /* ******************* */

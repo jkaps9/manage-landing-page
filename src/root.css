@@ -20,20 +20,33 @@
 - Orange 50: hsl(13, 100%, 96%)
 - Gray 50: hsl(0, 0%, 98%)*/
 
-  --color-primary: hsl(12, 88%, 59%);
-  --color-primary-light: hsl(13, 100%, 96%);
+  --color-primary: #f3603c; /* Orange 400 */
+  --color-primary-light: #f98f75; /* Orange 350 */
+  --color-primary-very-light: #fff0ec; /* Orange 50 */
 
-  --color-complementary: hsl(228, 39%, 23%);
-  --color-body-text: hsl(233, 12%, 13%);
-  --color-body-text-light: #ffffff;
-  --color-header-text: #000000;
-  --color-header-text-light: #ffffff;
-  --color-highlight: #457b9d;
-  --color-highlight-light: #a8dadc;
+  --color-complementary: #242d52; /* Blue 950 */
+  --color-complementary-light: #e5e9ea; /* Blue 50 */
+
+  --color-body-text: #242d52;
+  --color-gray-950: #1d1e25; /* Gray 950 */
+  --color-gray-900: #343a40; /* Gray 900 */
+  --color-gray-400: #8d8d8d; /* Gray 900 */
+  --color-gray-50: #fafafa; /* Gray 900 */
+
+  --color-body-text-light: #ffffff; /* White */
+
+  --color-header-text: #242d52; /* Blue 950 */
+  --color-header-text-light: #ffffff; /* White */
+
+  --color-highlight: #f33c3c; /* Red */
+  --color-highlight-light: #e5e9ea; /* Blue 50 */
+
+  --accent: #f33c3c; /* Red */
+
+  --color-gradient: linear-gradient (rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 
   --dark: #0f1d30;
   --secondary: #1d3557ff;
-  --accent: #457b9dff;
 
   --header-font: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
   --body-font: "Be Vietnam Pro", Arial, Helvetica, sans-serif;
@@ -76,6 +89,7 @@ body {
   max-width: 40.625rem;
   margin: 0;
   color: var(--color-body-text);
+  opacity: 50.25%;
 }
 
 .bold {

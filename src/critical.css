@@ -51,7 +51,8 @@
       max-width: clamp(29rem, 60vw, 50rem);
       margin: 0 auto;
       /* 40px - 48px */
-      margin-bottom: clamp(2.5rem, 4vw, 3rem);
+      margin-bottom: clamp(2rem, 4vw, 3rem);
+      margin-top: 1.5rem;
     }
 
     .background {

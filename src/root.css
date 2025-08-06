@@ -290,6 +290,7 @@ header {
   padding: 0 1.5rem;
   background-color: transparent;
   margin-top: 2.5625rem;
+  z-index: 2;
 
   .container {
     width: 100%;

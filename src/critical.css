@@ -29,9 +29,9 @@
       margin: auto;
     }
 
-    h1 {
-      /* 39px - 61px */
-      font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    .title {
+      /* 40px - 61px */
+      font-size: clamp(2.5rem, 6.4vw, 3.8125rem);
       font-weight: 700;
       line-height: 1.2em;
       text-align: center;
@@ -41,7 +41,7 @@
       position: relative;
     }
 
-    p {
+    .text {
       /* 16px - 25px */
       font-size: clamp(1rem, 1.95vw, 1.5625rem);
       line-height: 1.5em;
@@ -52,7 +52,6 @@
       margin: 0 auto;
       /* 40px - 48px */
       margin-bottom: clamp(2.5rem, 4vw, 3rem);
-      color: var(--color-body-text-light);
     }
 
     .background {

@@ -13,6 +13,17 @@
 
 @media only screen and (min-width: 0rem) {
   #features {
+    .title {
+      margin-bottom: 0;
+      line-height: 1.4em;
+    }
+
+    .text {
+      margin-bottom: calc(16 / 16 * 1rem);
+      font-size: 0.8125rem;
+      line-height: 2em;
+    }
+
     .container {
       width: 100%;
       max-width: calc(1280 / 16 * 1rem);
@@ -36,61 +47,31 @@
       gap: 1.5rem;
       padding: 0 1.625rem;
       text-align: center;
-
-      .title {
-        margin-bottom: 0;
-        line-height: 1.4em;
-      }
-
-      .text {
-        margin-bottom: calc(16 / 16 * 1rem);
-        font-size: 0.8125rem;
-        line-height: 2em;
-      }
     }
 
-    .image-container {
-      /* scaling the font size with the view width */
-      font-size: min(2.31vw, 0.7em);
-      /* using ems so we can use font size to scale the whole section */
-      width: calc(631 / 16 * 1em);
-      height: calc(636 / 16 * 1em);
-      position: relative;
+    .feature-list li {
+      list-style: none;
+      padding-left: 1rem;
 
-      .picture {
-        border-radius: calc(24 / 16 * 1em);
-        /* clips img tag corners */
-        overflow: hidden;
-        position: absolute;
-        display: block;
+      .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        background-color: var(--color-primary-very-light);
+        border-radius: 2.4375rem 0 0 2.4375rem;
+        margin-bottom: 0.5rem;
 
-        img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          /* makes image act like a background image */
-          object-fit: cover;
+        .button-solid {
+          padding: 0.5rem 1.5rem;
+          border-radius: 2.4375rem;
+          font-size: 1rem;
+          line-height: 1.4em;
         }
-      }
 
-      .picture1 {
-        width: calc(522 / 16 * 1em);
-        height: calc(581 / 16 * 1em);
-        left: 0;
-        top: 0;
-      }
-
-      .picture2 {
-        width: calc(414 / 16 * 1em);
-        height: calc(400 / 16 * 1em);
-        background-color: #fff;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
-        /* 6px - 12px */
-        border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
-        right: 0;
-        bottom: 0;
+        .title {
+          font-size: 1rem;
+        }
       }
     }
   }
@@ -103,11 +84,6 @@
       flex-flow: row;
       justify-content: space-between;
       gap: calc(52 / 16 * 1rem);
-    }
-
-    .image-container {
-      font-size: min(1.2vw, 1em);
-      flex: none;
     }
 
     .content {

@@ -179,7 +179,6 @@
       margin: 0 0 calc(20 / 16 * 1rem);
       padding-bottom: calc(20 / 16 * 1rem);
       color: var(--bodyTextColor);
-      border-bottom: 1px solid #e8e9ec;
     }
 
     .name {

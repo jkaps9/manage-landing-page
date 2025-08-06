@@ -33,13 +33,18 @@
       flex-direction: column;
       /* centers content horizontally, set to flex-start to left align */
       align-items: flex-start;
+      gap: 1.5rem;
+      padding: 0 1.625rem;
+      text-align: center;
 
       .title {
-        text-align: center;
+        margin-bottom: 0;
       }
 
       .text {
         margin-bottom: calc(16 / 16 * 1rem);
+        font-size: 0.8125rem;
+        line-height: 200%;
         &:last-of-type {
           margin-bottom: calc(32 / 16 * 1rem);
         }

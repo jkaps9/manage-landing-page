@@ -53,8 +53,8 @@
 
   /* 13px - 16px */
   --topper-font-size: clamp(0.8125rem, 1.6vw, 1rem);
-  /* 31px - 49px */
-  --header-font-size: clamp(1.9375rem, 3.9vw, 3.0625rem);
+  /* 32px - 49px */
+  --header-font-size: clamp(2rem, 3.9vw, 3.0625rem);
   --body-font-size: 1rem;
 
   --header-logo-scale-factor: 186; /* decreasing/increasing this value will decrease/increase max size of the header logo */

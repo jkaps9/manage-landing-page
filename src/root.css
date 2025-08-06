@@ -468,9 +468,8 @@ header {
 
       .line {
         width: 100%;
-        height: 2px;
-        background-color: #1a1a1a;
-        border-radius: 2px;
+        height: 4px;
+        background-color: var(--color-complementary);
         transition: transform 0.5s ease;
         display: block;
         position: absolute;

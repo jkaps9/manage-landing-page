@@ -108,24 +108,6 @@
   }
 }
 
-/* Desktop - 1300px (To make image background parallax) */
-@media only screen and (min-width: 81.25rem) {
-  #hero {
-    background: url("./assets/images/landing.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* makes the parallax effect */
-    background-attachment: fixed;
-
-    .background {
-      img {
-        display: none;
-      }
-    }
-  }
-}
-
 /* ******************* */
 /*      SERVICES       */
 /* ******************* */

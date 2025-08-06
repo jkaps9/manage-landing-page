@@ -13,8 +13,6 @@
 
 @media only screen and (min-width: 0rem) {
   #features {
-    padding: var(--section-padding);
-
     .container {
       width: 100%;
       max-width: calc(1280 / 16 * 1rem);
@@ -44,51 +42,6 @@
         margin-bottom: calc(16 / 16 * 1rem);
         &:last-of-type {
           margin-bottom: calc(32 / 16 * 1rem);
-        }
-      }
-
-      .quote-box {
-        margin: 0 0 calc(32 / 16 * 1rem) 0;
-        /* 16px - 32px */
-        padding: clamp(1rem, 3vw, 2rem);
-        background-color: #f7f7f7;
-        border-radius: calc(16 / 16 * 1rem);
-        position: relative;
-
-        .quote-text {
-          /* 14px - 16px */
-          font-size: clamp(0.875rem, 1.5vw, 1rem);
-          line-height: 1.5em;
-          margin: 0 0 calc(16 / 16 * 1rem);
-          color: #767676;
-          display: block;
-        }
-
-        .name {
-          font-size: calc(16 / 16 * 1rem);
-          line-height: 1.2em;
-          text-transform: uppercase;
-          font-weight: bold;
-          margin: 0 0 calc(4 / 16 * 1rem);
-          color: var(--color-header-text);
-          display: block;
-        }
-
-        .job {
-          font-size: calc(14 / 16 * 1rem);
-          line-height: 1.5em;
-          color: #767676;
-          display: block;
-        }
-
-        .quote-icon {
-          /* 60px - 136px */
-          width: clamp(3.75rem, 10vw, 8.5rem);
-          height: auto;
-          position: absolute;
-          bottom: calc(0 / 16 * 1rem);
-          /* 16px - 32px */
-          right: clamp(1rem, 4vw, 2rem);
         }
       }
     }

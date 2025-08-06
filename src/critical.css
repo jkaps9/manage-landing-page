@@ -19,6 +19,7 @@
     /* 130px - 450px */
     padding-bottom: clamp(12.125rem, 30.95vw, 28.125rem);
     padding-top: 0;
+    padding-bottom: 6.375rem;
     /* 46px */
     margin-top: 2.875rem;
     position: relative;

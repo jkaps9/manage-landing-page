@@ -8,12 +8,11 @@
 */
 
 /* ******************* */
-/*    SIDE BY SIDE     */
+/*       FEATURES      */
 /* ******************* */
 
 @media only screen and (min-width: 0rem) {
-  #about-us-sbs,
-  #about-us-sbsr {
+  #features {
     padding: var(--section-padding);
 
     .container {
@@ -37,7 +36,11 @@
       /* centers content horizontally, set to flex-start to left align */
       align-items: flex-start;
 
-      p {
+      .title {
+        text-align: center;
+      }
+
+      .text {
         margin-bottom: calc(16 / 16 * 1rem);
         &:last-of-type {
           margin-bottom: calc(32 / 16 * 1rem);
@@ -139,8 +142,7 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-  #about-us-sbs,
-  #about-us-sbsr {
+  #features {
     .container {
       flex-flow: row;
       justify-content: space-between;
@@ -154,34 +156,6 @@
 
     .content {
       margin: 0;
-    }
-  }
-}
-
-/* ********************  */
-/*  SIDE BY SIDE REVERSE */
-/* ********************  */
-@media only screen and (min-width: 0rem) {
-  #about-us-sbsr {
-    background-color: #f7f7f7;
-
-    .image-container {
-      .picture1 {
-        left: auto;
-        right: 0;
-      }
-      .picture2 {
-        right: auto;
-        left: 0;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 64rem) {
-  #about-us-sbsr {
-    .container {
-      flex-flow: row-reverse;
     }
   }
 }

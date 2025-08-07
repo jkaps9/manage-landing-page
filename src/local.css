@@ -96,6 +96,10 @@
       gap: calc(52 / 16 * 1rem);
     }
 
+    .feature-list li .header {
+      background-color: transparent;
+    }
+
     .content {
       margin: 0;
     }

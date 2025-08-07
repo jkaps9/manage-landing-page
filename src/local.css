@@ -92,6 +92,7 @@
     .container {
       flex-flow: row;
       justify-content: space-between;
+      align-items: flex-start;
       gap: calc(52 / 16 * 1rem);
     }
 

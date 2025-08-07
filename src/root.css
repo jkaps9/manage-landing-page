@@ -959,7 +959,7 @@ header {
 @media only screen and (min-width: 48rem) {
   #footer {
     .container {
-      max-width: calc(1280 / 16 * 1rem);
+      max-width: calc(1110 / 16 * 1rem);
       row-gap: 0;
     }
 
@@ -978,32 +978,70 @@ header {
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #footer {
+    padding-top: calc(61 / 16 * 1rem);
+    padding-bottom: calc(61 / 16 * 1rem);
+
     .container {
-      /* pushes all flex children to the top */
-      align-items: flex-start;
-      justify-content: flex-end;
+      height: calc(128 / 16 * 1rem);
+      display: grid;
+      gap: 0;
+      grid-template-columns: 164px 116px 542px 272px;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+        "logo x links subscribe"
+        "social x links copy";
     }
 
     .logo-container {
-      /* pushes everything to the right of it as far as possible in a flexbox */
-      margin-right: auto;
       width: auto;
       max-width: calc(305 / 16 * 1rem);
+      grid-area: logo;
+      height: 1.5rem;
     }
 
     .text {
       width: 100%;
+      grid-area: copy;
+      align-self: flex-end;
     }
 
-    .social {
-      flex-direction: row;
-      position: relative;
-      top: auto;
-      right: auto;
+    .links {
+      gap: 0;
+      grid-area: links;
+    }
+
+    .nav {
+      width: calc(255 / 16 * 1rem);
+    }
+
+    .nav-li {
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-link {
+      line-height: 1.625em;
     }
 
     .contact {
       width: auto;
+    }
+
+    .social {
+      gap: 1rem;
+      grid-area: social;
+      max-width: 100%;
+      align-self: flex-end;
+    }
+
+    .social-link,
+    .social-img {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    .subscribe {
+      display: flex;
+      width: 100%;
+      grid-area: subscribe;
     }
   }
 }

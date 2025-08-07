@@ -873,6 +873,12 @@ header {
     }
 
     /* Navigation Links */
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: calc(100 / 16 * 1rem);
+    }
+
     .nav {
       padding: 0;
       margin: 0;

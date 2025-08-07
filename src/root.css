@@ -601,6 +601,14 @@ header {
 /* ******************* */
 @media only screen and (min-width: 64rem) {
   header {
+    .container {
+      justify-content: space-between;
+    }
+
+    .logo {
+      margin-right: 0;
+    }
+
     padding: 0 1rem;
     .hamburger {
       display: none;

@@ -1041,7 +1041,17 @@ header {
     .subscribe {
       display: flex;
       width: 100%;
+      height: calc(44 / 16 * 1rem);
       grid-area: subscribe;
+
+      input {
+        width: 200px;
+      }
+
+      .button-solid {
+        padding: 0.75rem 1.5rem;
+        line-height: 1.45em;
+      }
     }
   }
 }

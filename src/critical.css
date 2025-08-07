@@ -35,8 +35,8 @@
     }
 
     .title {
-      /* 40px - 61px */
-      font-size: clamp(2.5rem, 6.4vw, 3.8125rem);
+      /* 40px - 56px */
+      font-size: clamp(2.5rem, 6.4vw, 3.5rem);
       font-weight: 700;
       line-height: 1.2em;
       text-align: center;

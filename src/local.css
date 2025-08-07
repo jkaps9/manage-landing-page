@@ -89,15 +89,45 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #features {
+    padding: 0 10.3125rem;
     .container {
       flex-flow: row;
       justify-content: space-between;
       align-items: flex-start;
-      gap: calc(52 / 16 * 1rem);
+      gap: calc(125 / 16 * 1rem);
+      margin: 0;
     }
 
-    .feature-list li .header {
-      background-color: transparent;
+    .content {
+      padding: 0;
+      flex: 0 0 auto;
+      max-width: calc(445 / 16 * 1rem);
+    }
+
+    .feature-list {
+      flex: 1;
+    }
+
+    .feature-list li {
+      padding-left: 0;
+      .header {
+        background-color: transparent;
+      }
+
+      .text {
+        max-width: calc(449 / 16 * 1rem);
+        margin-left: auto;
+      }
+    }
+
+    .title {
+      text-align: start;
+    }
+
+    .text {
+      text-align: start;
+      font-size: 1rem;
+      line-height: 1.625em;
     }
 
     .content {

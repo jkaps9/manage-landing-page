@@ -40,7 +40,7 @@
       font-weight: 700;
       line-height: 1.2em;
       text-align: center;
-      max-width: calc(829 / 16 * 1rem);
+      max-width: calc(700 / 16 * 1rem);
       /* 16px - 24px */
       margin: 0 auto clamp(1rem, 4vw, 1.5rem);
       position: relative;
@@ -52,8 +52,7 @@
       line-height: 1.5em;
       text-align: center;
       width: 100%;
-      /* 464px - 800px */
-      max-width: clamp(29rem, 60vw, 50rem);
+      max-width: 29rem;
       margin: 0 auto;
       /* 40px - 48px */
       margin-bottom: clamp(2rem, 4vw, 3rem);
@@ -133,7 +132,7 @@
     }
 
     .text-container {
-      width: calc(445 / 16 * 1rem);
+      /* width: calc(445 / 16 * 1rem); */
     }
   }
 }

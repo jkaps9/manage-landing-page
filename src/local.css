@@ -106,7 +106,7 @@
     .content {
       padding: 0;
       flex: 0 0 auto;
-      max-width: calc(445 / 16 * 1rem);
+      max-width: calc(500 / 16 * 1rem);
     }
 
     .feature-list {
@@ -133,6 +133,7 @@
       text-align: start;
       font-size: 1rem;
       line-height: 1.625em;
+      max-width: calc(350 / 16 * 1rem);
     }
 
     .content {

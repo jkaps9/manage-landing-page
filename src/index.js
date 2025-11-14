@@ -21,9 +21,15 @@ if (slideIndicators) {
     indicator.addEventListener("click", () => {
       const newId = Number(indicator.getAttribute("data-id"));
       if (newId !== currentId) {
-        currentId = newId;
         removeActiveClass(slideIndicators);
         indicator.className = "dot active";
+        currentId = newId;
+        const currentSlide = getCurrentSlide(currentId);
+
+        if (currentSlide) {
+          addHiddenClass(document.querySelectorAll(".item"));
+          currentSlide.classList.remove("hidden");
+        }
       }
     });
   });
@@ -33,4 +39,15 @@ function removeActiveClass(elements) {
   elements.forEach((element) => {
     element.classList.remove("active");
   });
+}
+
+function addHiddenClass(elements) {
+  elements.forEach((element) => {
+    element.className = "item hidden";
+  });
+}
+
+function getCurrentSlide(slideId) {
+  const slide = document.querySelector(`.item[data-id="${slideId}"]`);
+  return slide;
 }

@@ -671,7 +671,7 @@ header {
 @media only screen and (min-width: 0rem) {
   #cta {
     height: 405px;
-    padding: 0 2.5rem;
+    padding: 0 1rem;
     background-image: url("./assets/svgs/bg-simplify-section-mobile.svg");
     background-repeat: no-repeat;
     background-position: left;

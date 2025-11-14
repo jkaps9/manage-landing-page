@@ -80,6 +80,7 @@
 
         .text {
           margin-bottom: 0;
+          padding-right: 1rem;
         }
       }
     }
@@ -95,7 +96,7 @@
       justify-content: space-between;
       align-items: flex-start;
       gap: calc(125 / 16 * 1rem);
-      margin: 0;
+      margin: auto;
     }
 
     .content {
@@ -116,7 +117,7 @@
 
       .text {
         max-width: calc(449 / 16 * 1rem);
-        margin-left: auto;
+        margin-left: 5.125rem;
       }
     }
 
